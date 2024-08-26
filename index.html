@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titilope Quiz Application</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+</head>
+<body>
+    
+<div class="starter">
+    <div class="image">
+   <img src="image/quiz icon.jpg" alt="image-icon"> 
+   <h3>To get Started, <span>Click</span> the Button above</h3>
+    </div>
+
+
+    <div class="quizRules quizrulesHidden">
+<div class="rulesHeading">
+    <h4>Quiz Rules</h4>
+</div>
+       <ul class="motherList">
+        <li>Each question must be answered within 15secs</li>
+        <li>Once submitted, answers cannot be changed</li>
+        <li>Participants must have at least Knowlege of JavaScript</li>
+        <li>You cant select any Option as time goes off</li>
+        <li>You will be rewarded point according to your answer</li>
+        <li>You cant exist the quiz while youre playing</li>
+       </ul> 
+       <div class="buttonFlex">
+        <button class="exist">Exit Quiz</button>
+        <button class="continue">Continue</button>
+    </div>
+    </div>
+
+
+
+<div class="questionmother questionHidden">
+    <div class="questionPlace">
+        <div class="timeEntity">
+            <div class="firstprincint"><h4>Question</h4></div>
+            <div class="time"><p>Time Left <span>15</span></p></div>
+            </div>
+        <div class="progressContainer"><div class="progressPlace"></div></div>
+        <div class="number"><p>1/50</p></div>
+        <div class="questionStarter">
+<!-- <P>let x = 5;</P>
+   <p>let y = 10;</p>
+    <p>let z = x + y;</p>
+    </P> -->
+</div>
+        </div>
+    <!-- ENDING OF DIV -->
+ 
+<div class="optionList">
+
+    <!-- <div class="option"> <span>5</span></div>
+    <div class="option"><span>10</span></div>
+    <div class="option"><span>15</span></div>
+    <div class="option"><span>undefined</span></div> -->
+</div>
+
+<!-- CONTENT GOES HERE -->
+ <div class="nextBtn"><button>Next</button></div>
+
+    </div>
+ <!-- ENDING OF  QUESTION DIV -->
+
+
+
+<div class="modal modalhidden">
+<div class="resultModal">
+    <p>Your Score</p>
+    <h1>0/50</h1>
+    <button>Retry</button>
+</div>
+</div>
+
+
+<div class="overlay"></div>
+
+
+
+</div>
+
+
+
+
+<script src="index.js"></script>
+</body>
+</html>
