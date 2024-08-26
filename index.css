@@ -309,12 +309,12 @@ padding-bottom: 20px;
     
     .quizRules {
         position: absolute;
-        top: 186px;
+        top: 162px;
         left: 0px;
         background-color: rgb(31, 24, 24);
         padding: 0px;
-        width: 93%;
-        height: 334px;
+        width: 90%;
+        height: 355px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -322,44 +322,45 @@ padding-bottom: 20px;
         align-content: center;
         margin: 14px;
     }
-    
     .rulesHeading h4 {
         font-size: 16px;
         color: white;
         text-align: center;
         font-weight: 600;
         box-shadow: 0px 0px 0px 0.5px white;
-        margin-bottom: 23px;
+        margin-bottom: 15px;
+        padding-top: 20px;
     }
     .motherList li {
         float: none;
         color: white;
-        font-size: 15px;
+        font-size: 14px;
         padding-bottom: 13px;
+        padding: 10px;
     }
     .buttonFlex {
         display: flex;
-        padding-left: 163px;
+        padding-left: 80px;
         padding-top: 32px;
+        padding-bottom: 17px;
     }
     
     .buttonFlex .exist {
         background-color: white;
-        padding: 8px 13px;
-        font-size: 15px;
-        font-weight: 600;
+        padding: 8px 12px;
+        font-size: 13px;
+        font-weight: 400;
         border-radius: 10px;
         margin-right: 7px;
         color: rgb(31, 24, 24);
         cursor: pointer;
         border: none;
     }
-    
     .buttonFlex .continue {
         background-color: blanchedalmond;
-        padding: 8px 13px;
-        font-size: 15px;
-        font-weight: 600;
+        padding: 8px 12px;
+        font-size: 13px;
+        font-weight: 400;
         border-radius: 10px;
         cursor: pointer;
         border: none;
